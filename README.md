@@ -1,6 +1,8 @@
 [![npm version](https://badge.fury.io/js/%40mapbox%2Fspritezero.svg)](https://badge.fury.io/js/%40mapbox%2Fspritezero)
 [![Build Status](https://travis-ci.com/mapbox/spritezero.svg?branch=main)](https://travis-ci.com/mapbox/spritezero)
 
+> **Fork Notice:** This is a fork of [@mapbox/spritezero](https://github.com/mapbox/spritezero) with updated dependencies (February 2026). Install via `npm install @chrispahm/spritezero`.
+
 ## spritezero
 
 Small opinionated sprites.
@@ -15,7 +17,7 @@ and higher-dpi sprites from the same source.
 
 ### Usage
 ```js
-var spritezero = require('@mapbox/spritezero');
+var spritezero = require('@chrispahm/spritezero');
 var fs = require('fs');
 var glob = require('glob');
 var path = require('path');
@@ -62,16 +64,16 @@ Complete API documentation is here:  http://mapbox.github.io/spritezero/
 Requires [nodejs](http://nodejs.org/) v10.0.0 or greater.
 
 ```bash
-$ npm install @mapbox/spritezero
+$ npm install @chrispahm/spritezero
 ```
 
 
 ### Executable
 
-[spritezero-cli](https://github.com/mapbox/spritezero-cli) is an executable for bundling and creating your own sprites from a folder of svg's:
+[spritezero-cli](https://github.com/chrispahm/spritezero-cli) is an executable for bundling and creating your own sprites from a folder of svg's:
 
 ```bash
-$ npm install -g @mapbox/spritezero-cli
+$ npm install -g @chrispahm/spritezero-cli
 $ spritezero --help
 
 Usage:
