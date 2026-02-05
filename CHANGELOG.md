@@ -1,3 +1,7 @@
+## 8.1.0 (@chrispahm/spritezero)
+#### 2026-02-05
+* Fork of @mapbox/spritezero with updated dependencies
+
 ## 8.0.3
 #### 2023-05-24
 * Preserve `buffer` in `ImageLayout` if `format: true` is passed
